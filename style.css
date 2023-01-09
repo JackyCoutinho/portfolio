@@ -54,3 +54,25 @@ nav ul li  a:hover:not(.active){
         flex-flow: column;
     }
 }
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th{
+    background:rgba(172, 33, 82, 0.33);
+    color:white;
+    text-align: left;
+}
+th, td{
+    border: 1px solid rgb(201, 191, 191);
+    padding: 0.5em
+}
+tr:nth-child(odd){
+    background: #dce5f4;
+}
+tr:hover{
+    background: rgba(82, 43, 63, 0.641);
+    color: white
+}
