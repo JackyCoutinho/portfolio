@@ -43,6 +43,14 @@ nav ul li  a:hover:not(.active){
     background-color: white;
     color:black
 }
+
+ul{
+    list-style: none;
+}
+h2{
+    color: #d30e9e;
+}
+
 @media screen and (max-width: 800px) {
     nav ul {
         justify-content: space-around;
@@ -75,4 +83,9 @@ tr:nth-child(odd){
 tr:hover{
     background: rgba(82, 43, 63, 0.641);
     color: white
+}
+footer{
+    background-color: black;
+    color:white;
+    
 }
