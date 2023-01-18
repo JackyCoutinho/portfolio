@@ -50,19 +50,6 @@ ul{
 h2{
     color: #d30e9e;
 }
-
-@media screen and (max-width: 800px) {
-    nav ul {
-        justify-content: space-around;
-    }
-}
-
-@media screen and (max-width: 600px){
-    nav ul {
-        flex-flow: column;
-    }
-}
-
 table{
     width: 100%;
     border-collapse: collapse;
@@ -84,8 +71,14 @@ tr:hover{
     background: rgba(82, 43, 63, 0.641);
     color: white
 }
-footer{
-    background-color: black;
-    color:white;
-    
+@media screen and (max-width: 800px) {
+    nav ul {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 600px){
+    nav ul {
+        flex-flow: column;
+    }
 }
